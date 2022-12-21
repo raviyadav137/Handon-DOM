@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Q1:Write the code to acess element by using id</h3>
+        <div id="text">Hi,Welcome to prepbyte session!</div>
+    <h3>Q2:Write the code to acess element by using TagName</h3>
+        <h1>Hello!!</h1>
+    <h1>Q3:Write the code to acess element by using ClassName</h1>
+        <div class="box">Ravi Yadav</div>
+    <h1>Q4:&lt;h1&gt;Hello&lt;/h1&gt;<br>
+         Change the heading from "Hello" to "Hello World" using DOM function: 
+         <br>
+         <h1 id="header">Hello</h1>
+         <br>
+     <h1>Q5:Create three cards on Html page and arrange them using flex property in row or horizontal diresction and also<br>
+    create button at the button named "change flex direction"when user click this button.the cards<br>
+arrangement should be changed to vertical direction</h1> 
+<br>
+<div id="card">
+    <div class="cards"></div>
+    <div class="cards"></div>
+    <div class="cards"></div>
+</div><br>   
+<button onclick="abc()" class="click">click</button>
+<br>
+<h1>Q6:-What is the difference between window vs document</h1><br>
+ Ans:-<p>window is the execution context and global object for that context's JavaScript
+     document contains the DOM, initialized by parsing HTML</p><br>
+ <h1>Q7:-"&lt;h1&gt;Hello &lt;/h1&gt;<br>
+
+ Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"</h1>    
+    <br>
+    <h1 id="heading">Hello</h1>
+    <br>
+ <h1>Q8:-Create an HTML page having content as Hello world and a button named Replace Text. When user will click<br> on this button page content should be changed to "Welcome to Elevation academy"</h1>       
+ <br>
+  <h1 id="content">Hello World</h1><br>
+  <button id="btn" onclick="btn()">Replace Text</button>
+  <br>
+  <h1>Q9:-Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h1>
+  <br>
+   <div id="container">
+      <span id="Hours">00</span>
+      <span>:</span>
+      <span id="Minutes">00</span>
+      <span>:</span>
+      <span id="Seconds">00</span>
+      <span id="Session">AM</span>
+   </div>
+   <br>
+   <h1>Q10:-Create a select drop down for selecting Year 20-21, 21-22 etc. Print the item text selected</h1>
+     <br>   
+     <select id="choose" onchange="selectValue()">
+        <option value="2019-2020">2019-2020</option>
+        <option value="2020-2021">2020-2021</option>
+        <option value="2021-2022">2021-2022</option>
+        <option value="2022-2023">2022-2023</option>
+        <option value="2023-2024">2023-2024</option>
+        <option value="2024-2025">2024-2025</option>
+    </select>
+    <p id="temp"></p>
+   <script src="./class.js"></script>
+</body>
+</html>
